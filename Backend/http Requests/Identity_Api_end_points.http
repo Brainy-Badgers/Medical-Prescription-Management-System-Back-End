@@ -1,0 +1,63 @@
+#### Register Admin 
+POST https://localhost:44382/api/Auth/RegisterAdmin
+Content-Type: application/json
+
+{
+    "Email" : "Admin2@gmail.com",
+    "Password":"Abc@12345",
+    "FirstName":"Admin",
+    "LastName":"Admin",
+    "DOB":"1990-10-01",
+    "AdminCreateSecret":4455
+}
+
+#########
+
+#### Register Doctor 
+POST https://localhost:44382/api/Auth/RegisterDoctor
+Content-Type: application/json
+
+{
+    "Email" : "Doctor@gmail.com",
+    "Password":"Abc@12345",
+    "FirstName":"Doctor",
+    "LastName":"LastName",
+    "DOB":"1998-10-01"
+}
+
+#########
+
+#### Register Patient
+POST https://localhost:44382/api/Auth/RegisterPatient
+Content-Type: application/json
+
+{
+    "Email" : "patient@gmail.com",
+    "Password":"Abc@12345"
+}
+
+#########
+####  Register Pharmacist 
+POST https://localhost:44382/api/Auth/RegisterPharmacist
+Content-Type: application/json
+
+{
+    "Email" : "Pharmacist@gmail.com",
+    "Password":"Abc@12345",
+    "FirstName":"Pharmacist",
+    "LastName":"LastName",
+    "DOB":"1998-10-01"
+}
+
+#########
+
+#### Login 
+POST https://localhost:44382/api/Auth/Login
+Content-Type: application/json
+
+{
+    "Email" : "Admin@gmail.com",
+    "Password":"Abc@12345"
+}
+
+#########

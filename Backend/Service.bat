@@ -1,0 +1,1 @@
+start /d "." dotnet run --project MedicalPrescriptionManagementSystem\MedicalPrescriptionManagementSystem\Server\MedicalPrescriptionManagementSystem.Server.csproj
